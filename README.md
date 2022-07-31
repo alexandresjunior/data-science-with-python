@@ -31,10 +31,12 @@ _start:
 print("Hello, world!")
 ```
 * Although it is more difficult for the human developer to understand, the low-level language generates better use and performance of the machine, after all the content does not need to be interpreted by the computer, unlike high-level languages.
+* Python is a popular [open-source](https://pt.wikipedia.org/wiki/Software_de_c%C3%B3digo_aberto) programming language. This means that Python is developed under an [OSI](https://pt.wikipedia.org/wiki/Open_Source_Initiative)-approved open-source license, making it freely usable and distributable, even for commercial use. The Python license is administered by the [Python Software Foundation](https://pt.wikipedia.org/wiki/Python_Software_Foundation).
 
 ## Additional Links
 * [What is Google Colaboratory?](https://www.alura.com.br/artigos/google-colab-o-que-e-e-como-usar?utm_source=gnarus&utm_medium=timeline)
 * [Python and Object Orientation](https://www.alura.com.br/apostila-python-orientacao-a-objetos#entrada-do-usurio)
+* [Why Can't Computers Generate Random Numbers?](https://www.youtube.com/watch?v=LqXnpIn2Uxs)
 
 ## Exercises
 1. Define a function called `fullName` which gets the first and last name from the user, using Python's built-in `input` function, stores each name in an individual variable and prints the full name by contatenating the two variables with a space between them.
@@ -67,6 +69,4 @@ print("Hello, world!")
     What's the value of `a`?
 6. tbd
 
-
-
-**Obs.:** Fork this repository and open a PR with the exercises solutions.
+**Obs.:** Fork this repository and open a pull request with the exercises solutions.
