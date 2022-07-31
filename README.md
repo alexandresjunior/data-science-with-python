@@ -67,6 +67,16 @@ print("Hello, world!")
     a
     ```
     What's the value of `a`?
-6. tbd
+6. To compare the academic performance of a particular student, a school decided to create a graph for each subject, based on the code below:
+    ```
+    import matplotlib.pyplot as plt
+
+    grades_math = ['Math',8,7,6,6,7,7,8,10]
+    grades_english = ['English',9,9,9,8,5,6,8,5]
+    grades_geography = ['Geography',10,10,6,7,7,7,8,7]
+
+    grades = [grades_math, grades_english, grades_geography]
+    ```
+    Generate a graph for each subject using the `grades` list as input and the `matplotlib` library.
 
 **Obs.:** Fork this repository and open a pull request with the exercises solutions.
