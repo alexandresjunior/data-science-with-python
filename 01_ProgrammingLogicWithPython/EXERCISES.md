@@ -39,5 +39,59 @@
     grades = [grades_math, grades_english, grades_geography]
     ```
     Generate a graph for each subject using the `grades` list as input and the `matplotlib` library.
-
+7. Consider the variables below:
+    ```
+    text = 'The vehicle's average mileage is '
+    km = 100000
+    year_current = 2019
+    year_manufacture = 1999
+    ```
+    Write a code snippet whose output is: `The vehicle's average mileage is 5000 km` using those variables as inputs.
+8. Consider the `cars` list below:
+    ```
+    cars = [
+         [
+             'Jetta Variant',
+             '4.0 Turbo Engine',
+             2003,
+             false,
+             ['Alloy wheels', 'Power locks', 'Autopilot']
+         ],
+         [
+             'Passat',
+             'Diesel engine',
+             1991,
+             True,
+             ['Multimedia centre', 'Panoramic roof', 'ABS brakes']
+         ]
+    ]
+    ```
+    Write a code snippet whose outputs are: `True`, `'Panoramic roof'` and `['Alloy wheels', 'Power locks', 'Autopilot']`.
+9.  Consider the following Python list:
+    ```
+    accessories = [
+         'Alloy wheels',
+         'Electric Locks',
+         'Automatic pilot',
+         'Leather Seats',
+         'Air conditioning'
+    ]
+    ```
+    Write a code snippet whose output obtained after a set of manipulations is:
+    ```
+    ['Air bag',
+     'Air conditioning',
+     'Leather Seats',
+     'Automatic pilot',
+     'Alloy wheels',
+     'Electric windows']
+    ```
+10. Consider the following code snippet:
+    ```
+    square = []
+    for i in range(10):
+       square.append(i ** 2)
+    ```
+    Write a code snippet whose output is the same using *list comprehensions*.
+    
 **Obs.:** Fork this repository and open a pull request with the exercises solutions.
