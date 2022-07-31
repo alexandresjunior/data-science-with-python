@@ -33,6 +33,10 @@ print("Hello, world!")
 * Although it is more difficult for the human developer to understand, the low-level language generates better use and performance of the machine, after all the content does not need to be interpreted by the computer, unlike high-level languages.
 * Python is a popular [open-source](https://pt.wikipedia.org/wiki/Software_de_c%C3%B3digo_aberto) programming language. This means that Python is developed under an [OSI](https://pt.wikipedia.org/wiki/Open_Source_Initiative)-approved open-source license, making it freely usable and distributable, even for commercial use. The Python license is administered by the [Python Software Foundation](https://pt.wikipedia.org/wiki/Python_Software_Foundation).
 
+## Sections
+* [Programming Logic with Python](./01_ProgrammingLogicWithPython/)
+* [Working with Numpy Library](./02_WorkingWithNumpy/)
+
 ## Additional Links
 * [What is Google Colaboratory?](https://www.alura.com.br/artigos/google-colab-o-que-e-e-como-usar?utm_source=gnarus&utm_medium=timeline)
 * [Python and Object Orientation](https://www.alura.com.br/apostila-python-orientacao-a-objetos#entrada-do-usurio)
