@@ -34,8 +34,8 @@ print("Hello, world!")
 * Python is a popular [open-source](https://pt.wikipedia.org/wiki/Software_de_c%C3%B3digo_aberto) programming language. This means that Python is developed under an [OSI](https://pt.wikipedia.org/wiki/Open_Source_Initiative)-approved open-source license, making it freely usable and distributable, even for commercial use. The Python license is administered by the [Python Software Foundation](https://pt.wikipedia.org/wiki/Python_Software_Foundation).
 
 ## Sections
-* [Programming Logic with Python](./01_ProgrammingLogicWithPython/)
-* [Working with Numpy Library](./02_WorkingWithNumpy/)
+1. [Programming Logic with Python](./01_ProgrammingLogicWithPython/)
+2. [Working with Numpy Library](./02_WorkingWithNumpy/)
 
 ## Additional Links
 * [What is Google Colaboratory?](https://www.alura.com.br/artigos/google-colab-o-que-e-e-como-usar?utm_source=gnarus&utm_medium=timeline)
