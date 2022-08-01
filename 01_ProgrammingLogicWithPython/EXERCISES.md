@@ -54,7 +54,7 @@
              'Jetta Variant',
              '4.0 Turbo Engine',
              2003,
-             false,
+             False,
              ['Alloy wheels', 'Power locks', 'Autopilot']
          ],
          [
@@ -93,5 +93,40 @@
        square.append(i ** 2)
     ```
     Write a code snippet whose output is the same using *list comprehensions*.
+11. Consider the following tuple:
+    ```
+    cars = (
+        (
+            'Jetta Variant',
+            '4.0 Turbo Engine',
+            2003,
+            False,
+            ('Alloy wheels', 'Power locks', 'Autopilot')
+        ),
+        (
+            'Passat',
+            'Diesel engine',
+            1991,
+            True,
+            ('Multimedia centre', 'Panoramic roof', 'ABS brakes')
+        )
+    )
+    ```
+    What are the output for `carros[0][3]`, `carros[-1][-1][-1]` and `carros[0][-1][:2]`?
+12. For the same tuple above, write a code snippet whose output is as below:
+    ```
+    Alloy wheels
+    Electric locks
+    Automatic pilot
+    Multimedia center
+    Panoramic roof
+    ABS brakes
+    ```
+13. Considering the two lists below:
+    ```
+    names = ['Passat', 'Crossfox', 'DS5', 'C4', 'Jetta']
+    kms = [15000, 12000, 32000, 8000, 50000]
+    ```
+    Write a code snippet which makes it possible to print the names of vehicles with mileage below 20,000 km.
     
 **Obs.:** Fork this repository and open a pull request with the exercises solutions.
