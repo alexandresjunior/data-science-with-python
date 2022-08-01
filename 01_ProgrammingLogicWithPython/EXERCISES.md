@@ -122,11 +122,43 @@
     Panoramic roof
     ABS brakes
     ```
-13. Considering the two lists below:
+13. Consider the two lists below:
     ```
     names = ['Passat', 'Crossfox', 'DS5', 'C4', 'Jetta']
     kms = [15000, 12000, 32000, 8000, 50000]
     ```
     Write a code snippet which makes it possible to print the names of vehicles with mileage below 20,000 km.
-    
+14. Consider the following dictionary:
+    ```
+    data = {
+        'Passat': {
+            'year': 2012,
+            'km': 50000,
+            'value': 75000,
+            'accessories': ['Airbag', 'ABS']
+        },
+        'Cross Fox': {
+            'year': 2015,
+            'km': 35000,
+            'value': 25000
+        }
+    }
+    ```
+    Write code snippets to make it possible to:
+    1. Test if the `accessories` key exists in the `Crossfox` car information dictionary (Answer: `False`)
+    2. Test if the `accessories` key exists in the `Passat` car information dictionary (Answer: `True`)
+    3. Get the `Crossfox` car value (Answer: `25000`)
+    4. Access the latest `Passat` car accessory (Answer: `'ABS'`)
+15. Consider the following dictionary:
+    ```
+    data = {
+        'Crossfox': {'value': 72000, 'year': 2005},
+        'DS5': {'value': 125000, 'year': 2015},
+        'Beetle': {'value': 150000, 'year': 1976},
+        'Jetta': {'value': 88000, 'year': 2010},
+        'Passat': {'value': 106000, 'year': 1998}
+    }
+    ```
+    Write a code snippet which displays the code that prints only the **names of vehicles** with a year of manufacture greater than or equal to 2000.
+
 **Obs.:** Fork this repository and open a pull request with the exercises solutions.
