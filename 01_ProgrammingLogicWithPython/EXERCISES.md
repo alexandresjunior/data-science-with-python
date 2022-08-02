@@ -178,5 +178,13 @@
      'Jetta': 7000.0,
      'Passat': 3100.0}
     ```
+17. For the same dataset and function call from above, define a function whose output is the `DataFrame` defined below:
+    ```
+    {'Crossfox': {'km': 35000, 'year': 2005, 'km_avg': 2500.0},
+     'DS5': {'km': 17000, 'year': 2015, 'km_avg': 4250.0},
+     'Fusca': {'km': 130000, 'year': 1979, 'km_avg': 3250.0},
+     'Jetta': {'km': 56000, 'year': 2011, 'km_avg': 7000.0},
+     'Passat': {'km': 62000, 'year': 1999, 'km_avg': 3100.0}}
+    ```
 
 **Obs.:** Fork this repository and open a pull request with the exercises solutions.
