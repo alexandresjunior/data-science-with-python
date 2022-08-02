@@ -160,5 +160,23 @@
     }
     ```
     Write a code snippet which displays the code that prints only the **names of vehicles** with a year of manufacture greater than or equal to 2000.
+16. Consider the following dataset:
+    ```
+    data = {
+        'Crossfox': {'km': 35000, 'year': 2005}, 
+        'DS5': {'km': 17000, 'year': 2015}, 
+        'Fusca': {'km': 130000, 'year': 1979}, 
+        'Jetta': {'km': 56000, 'year': 2011}, 
+        'Passat': {'km': 62000, 'year': 1999}
+    }
+    ```
+    Define a function that calculates the average annual mileage of each vehicle and returns a dictionary with the vehicle names as *keys* and the average mileages as *values*, as below - considering the funcion call `km_abg(data, 2019)`:
+    ```
+    {'Crossfox': 2500.0,
+     'DS5': 4250.0,
+     'Fusca': 3250.0,
+     'Jetta': 7000.0,
+     'Passat': 3100.0}
+    ```
 
 **Obs.:** Fork this repository and open a pull request with the exercises solutions.
