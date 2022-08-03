@@ -36,6 +36,7 @@ print("Hello, world!")
 ## Sections
 1. [Programming Logic with Python](./01_ProgrammingLogicWithPython/)
 2. [Numpy Basics](./02_NumpyBasics/)
+3. [Pandas Basics](/03_PandasBasics/)
 
 ## Additional Links
 * [What is Google Colaboratory?](https://www.alura.com.br/artigos/google-colab-o-que-e-e-como-usar?utm_source=gnarus&utm_medium=timeline)
